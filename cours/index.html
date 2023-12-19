@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuto video 2 JS</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <!--questionnaire-->
+
+    <div class="click-event box">
+        <h4>Quelle est la capitale de la Suisse ?</h4>
+        <button id="btn-1">Berne</button>
+        <button id="btn-2">Zurich</button>
+        <p class="answer" id="answer">La bonne réponse est Berne</p>
+        <p class="error" id="error">Zurich n'est pas la bonne réponse</p>
+    </div>
+        
+    
+
+    <!--mousse events-->
+
+    <div class="mousemove"></div>
+
+    <!--keypress events-->
+    
+    <div class="keypress box">
+        <h2>appuyez sur la touche :
+            <span id="key"></span>
+        </h2>
+    </div>
+
+    <!--scroll events-->
+    
+    <nav>
+        <ul>
+            <li>Accueil</li>
+            <li>Services</li>
+            <li>Contacts</li>
+        </ul>
+    </nav>
+
+    <!--formulaire-->
+    <form action="" class="box">
+
+    <input type="text" placeholder="Entrez votre nom">
+
+    <select >
+        <option value="">Sélectionnez votre language favoris</option>
+        <option value="Javascript">Javascript</option>
+        <option value="PHP">PHP</option>
+        <option value="Python">Python</option>
+    </select>
+
+    <input type="checkbox" id="cgv">
+    <label for="cgv">Acceptez les CGV</label>
+
+    <input type="submit" value="validez">
+    <div></div>
+    </form>
+    <script src="./index.js"></script>
+</body>
+</html>
